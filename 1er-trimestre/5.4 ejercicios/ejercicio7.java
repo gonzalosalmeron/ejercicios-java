@@ -21,7 +21,13 @@ public class ejercicio7 {
             } else {
                 System.out.println("Lo siento, esa no es la combinación.");
             }
-        } while(i < 4 || clave != 3719);
+        } while(i < 4 && clave != 3719);
+        if (clave == 3719){
+            System.out.println("");
+        } else{
+            System.out.println("-------------------------------------");
+            System.out.println("Lo siento no te quedan intentos");
+        }
     }
 }
 
